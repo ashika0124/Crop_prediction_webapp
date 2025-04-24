@@ -25,33 +25,58 @@
 ---
 
 ## 📁 Project Structure
-crop-predictor/ ├── app.py # Flask app ├── train_model.py # ML training script ├── crop_data.csv # Dataset ├── model.pkl # Trained ML model ├── label_encoder.pkl # Label encoder for crop labels ├── templates/ │ └── index.html # Tailwind form UI ├── static/ # Optional: CSS/images ├── requirements.txt └── README.md
 
+```bash
+crop-predictor/
+├── app.py                # Flask app
+├── train_model.py        # ML training script
+├── crop_data.csv         # Dataset
+├── model.pkl             # Trained ML model
+├── label_encoder.pkl     # Label encoder for crop labels
+├── templates/
+│   └── index.html        # Tailwind form UI
+├── static/               # Optional: CSS/images
+├── requirements.txt
+└── README.md
 
 ---
 
 ## 🚀 Getting Started
 
-### 1. Clone the Repo
+Follow these steps to run the project locally:
 
-```
+### 1. Clone the Repository
+
+```bash
 git clone https://github.com/ashika0124/Crop_prediction_webapp.git
 cd crop-predictor
 
 ### 2. (Optional) Create a Virtual Environment
-python -m venv venv
-venv\Scripts\activate  # Windows
 
-3. Install Dependencies
+```bash
+python -m venv venv
+# For Windows
+venv\Scripts\activate
+# For macOS/Linux
+source venv/bin/activate
+
+### 3. Install Dependencies
+
+```bash
 pip install -r requirements.txt
 If requirements.txt is missing:
 pip install flask pandas scikit-learn
 
-4. Train the Model
+### 4. Train the Model
+
+```bash
 python train_model.py
 
-5. Run the App
+### 5. Run the App
+
+```bash
 python app.py
+
 Visit in browser: http://127.0.0.1:5000
 
 📊 Sample crop_data.csv
