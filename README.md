@@ -26,7 +26,7 @@
 
 ## 📁 Project Structure
 
-
+```
 crop-predictor/
 ├── app.py                # Flask app
 ├── train_model.py        # ML training script
@@ -38,7 +38,7 @@ crop-predictor/
 ├── static/               # Optional: CSS/images
 ├── requirements.txt
 └── README.md
-
+```
 ---
 
 ## 🚀 Getting Started
