@@ -55,16 +55,16 @@ cd crop-predictor
 
 ```bash
 python -m venv venv
-# For Windows
-venv\Scripts\activate
-# For macOS/Linux
-source venv/bin/activate
+venv\Scripts\activate  # Windows
+
 ```
 ### 3. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
-If requirements.txt is missing:
+```
+If requirements.txt is missing, run:
+```
 pip install flask pandas scikit-learn
 ```
 ### 4. Train the Model
@@ -76,23 +76,24 @@ python train_model.py
 
 ```bash
 python app.py
-
-Visit in browser: http://127.0.0.1:5000
 ```
+Visit in browser: http://127.0.0.1:5000
+
+
 📊 Sample crop_data.csv
 csv
+```
 Nitrogen,Phosphorus,Potassium,pH,Humidity,Salinity,Crop
 85,40,50,6.5,70,0.4,brinjal
 90,35,45,6.4,72,0.5,brinjal
 60,25,30,6.2,65,0.6,cauliflower
-✅ Make sure all values are numeric — avoid ranges like 51.3–77.0.
-)
+```
+✅ Make sure all values are numeric (not ranges like 50–70).
+
 📄 License
 This project is licensed under the MIT License.
 
 🙋‍♂️ Author
 Built with ❤️ by Ashika
-
 🔗 https://www.linkedin.com/in/ashika0124/ 
-
 📧 ashika8482@gmail.com
