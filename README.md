@@ -26,7 +26,7 @@
 
 ## 📁 Project Structure
 
-```bash
+
 crop-predictor/
 ├── app.py                # Flask app
 ├── train_model.py        # ML training script
@@ -47,10 +47,10 @@ Follow these steps to run the project locally:
 
 ### 1. Clone the Repository
 
-```bash
+```
 git clone https://github.com/ashika0124/Crop_prediction_webapp.git
 cd crop-predictor
-
+```
 ### 2. (Optional) Create a Virtual Environment
 
 ```bash
@@ -59,26 +59,26 @@ python -m venv venv
 venv\Scripts\activate
 # For macOS/Linux
 source venv/bin/activate
-
+```
 ### 3. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 If requirements.txt is missing:
 pip install flask pandas scikit-learn
-
+```
 ### 4. Train the Model
 
 ```bash
 python train_model.py
-
+```
 ### 5. Run the App
 
 ```bash
 python app.py
 
 Visit in browser: http://127.0.0.1:5000
-
+```
 📊 Sample crop_data.csv
 csv
 Nitrogen,Phosphorus,Potassium,pH,Humidity,Salinity,Crop
