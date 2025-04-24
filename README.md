@@ -95,5 +95,7 @@ This project is licensed under the MIT License.
 
 🙋‍♂️ Author
 Built with ❤️ by Ashika
+```
 🔗 https://www.linkedin.com/in/ashika0124/ 
 📧 ashika8482@gmail.com
+```
