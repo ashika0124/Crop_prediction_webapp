@@ -2,6 +2,9 @@ from flask import Flask, render_template, request
 import pickle
 import numpy as np
 
+with open("model.pkl", "rb") as f:
+    model = pickle.load(f)
+
 app = Flask(__name__)
 
 # Load your trained ML model
